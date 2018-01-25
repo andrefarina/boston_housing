@@ -12008,9 +12008,8 @@ Desvio padrão dos preços: $165,171.13
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Resposta: </strong></p>
 <ul>
-<li>Eu espero que quanto maior for o valor <code>'RM'</code> maior será o custo do imóvel.</li>
-<li>Eu espero que quanto menor for o valor <code>'LSTAT'</code> em um bairro, maior será o valor do imóvel.</li>
-<li>Eu imagino que quanto maior for o valor <code>'PTRATIO'</code> em um bairro, maior será o valor do imóvel.</li>
+<li>Uma vez que o valor <code>'RM'</code> refere-se ao número médio de cômodos, a minha intuição diz que quanto maior for o valor <code>'RM'</code> maior será o custo do imóvel.</li>
+<li>Devido ao fato do valor <code>'LSTAT'</code> apresentar um percentual de pobres em um bairro, eu imagino que quanto maior for este valor menos valorizado será o imóvel. O mesmo deve acontecer com o valor <code>'PTRATIO'</code> que, por refletir a razão de estudantes para professores e, como entendo que bairros com menos colégios são menos valorizados, eu imagino que quanto maior for este valor, menor será o valor do imóvel.</li>
 </ul>
 
 </div>
@@ -12244,7 +12243,7 @@ Desvio padrão dos preços: $165,171.13
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Resposta: </strong></p>
 <ul>
-<li>Separar o conjunto de dados promove a melhora da capacidade do modelo em lidar com casos desconhecidos ao evitar o overfitting</li>
+<li>Separar o conjunto de dados promove a melhora da capacidade do modelo e nos permite identificar os casos de overfitting e tomar providências para remediar o problema</li>
 </ul>
 
 </div>
@@ -12329,8 +12328,9 @@ Desvio padrão dos preços: $165,171.13
 <p><strong>Resposta: </strong></p>
 <ul>
 <li>O gráfico escolhido foi o de profundidade máxima = 3.</li>
-<li>Ao se adicionar pontos de treinamento a curva de treinamento tende a diminuir até se estabilizar enquanto a curva de teste tende a aumentar até um ponto de estabilização e depois tende a reverte o sentido passando a cair.</li>
+<li>Ao se adicionar pontos de treinamento a curva de treinamento tende a diminuir até se estabilizar enquanto a curva de teste tende a aumentar até um ponto de estabilização e depois tende a reverter o sentido passando a cair.</li>
 <li>É importante analisar o comportamento do modelo para decidir a melhor quantidades de pontos de treinamento pois um volume de pontos de treinamento demasiadamente alto pode, além de reduzir o desempenho do modelo, aumentar custo computacional.</li>
+<li>Outra observação importante é que, para o caso acima,  aumentar a quantidades de pontos não trará nenhum benefício pois este fato isolado não irá promover melhora de desempenho para o modelo.</li>
 </ul>
 
 </div>
